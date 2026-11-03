@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+docs-local/
+.env.sharepoint
+*.bak
+*.github-*.bak
+sharepoint_automation.db
+prolabore_*_report.json
+prolabore_*_followup.json
+prolabore_*_folha_*.json
+prolabore_*_recovery_report.json
+prolabore_*_finalize_report.json
+.env.portaldp

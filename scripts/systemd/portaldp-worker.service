@@ -1,0 +1,10 @@
+[Unit]
+Description=PortalDP -> tarefa no portal de tarefas (SharePoint)
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=automacao
+WorkingDirectory=/opt/sharepoint-task-automation
+ExecStart=/opt/sharepoint-task-automation/scripts/run_portaldp_worker.sh
+TimeoutStartSec=600
